@@ -21,4 +21,4 @@ The following figures compare the confusion matrices before and after training. 
   <img src="https://drive.google.com/uc?export=view&id=1eb6ifwishqYDCU7DZU8NbO-GGRVluPfR" width="45%" />
 </p>
 
-The accuracy is approximately 91.6%.
+The accuracy exceeded 90%.
