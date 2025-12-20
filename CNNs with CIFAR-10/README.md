@@ -10,7 +10,11 @@ The dataset has 10 classes: airplane, automobile, bird, cat, deer, dog, frog, ho
 
 ## Implementation
 
+### Convolutional Layers
+
 The model used to classify the data is a convolutional neural network. The neural network utilizes an architecture of three convolutional layers. Every convolution is followed by a batch normalization layer to normalize the feature maps and dropout to reduce overfitting. There is a max pooling layer after the second convolution to reduce dimensions. 
+
+### Fully Connected Neural Network
 
 Afterwards, the flattened output is passed through a hidden fully connected neural network with the ReLU activation function and cross-entropy loss as the loss function, followed by backpropagation. Gradient descent is performed using the Adam optimizer. The prediction corresponds to the index of the largest element of the output array.
 
